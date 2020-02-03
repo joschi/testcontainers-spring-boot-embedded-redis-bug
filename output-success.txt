@@ -1,0 +1,92 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /Users/joschi/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3
+Java version: 11.0.5, vendor: Azul Systems, Inc., runtime: /Users/joschi/.asdf/installs/java/azul-zulu-11.0.5
+Default locale: de_DE, platform encoding: UTF-8
+OS name: "mac os x", version: "10.15.3", arch: "x86_64", family: "mac"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.github.joschi.springboot.testcontainers:redis >----------
+[INFO] Building redis 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /path/to/project/src/main/resources
+[INFO] skip non existing resourceDirectory /path/to/project/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ redis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /path/to/project/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ redis ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ redis ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.joschi.springboot.testcontainers.RedisTest
+10:00:39.905 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:00:39.920 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:00:39.949 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.github.joschi.springboot.testcontainers.RedisTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:00:39.966 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.github.joschi.springboot.testcontainers.RedisTest], using SpringBootContextLoader
+10:00:39.971 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.github.joschi.springboot.testcontainers.RedisTest]: class path resource [com/github/joschi/springboot/testcontainers/RedisTest-context.xml] does not exist
+10:00:39.972 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.github.joschi.springboot.testcontainers.RedisTest]: class path resource [com/github/joschi/springboot/testcontainers/RedisTestContext.groovy] does not exist
+10:00:39.972 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.github.joschi.springboot.testcontainers.RedisTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:00:40.010 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.github.joschi.springboot.testcontainers.RedisTest]
+10:00:40.103 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.github.joschi.springboot.testcontainers.RedisTest]: using defaults.
+10:00:40.104 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:00:40.116 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+10:00:40.120 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+10:00:40.121 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+10:00:40.121 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78383390, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6ad3381f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@53dbe163, org.springframework.test.context.support.DirtiesContextTestExecutionListener@db57326, org.springframework.test.context.event.EventPublishingTestExecutionListener@34a875b3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4748a0f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b14918a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6d1ef78d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a6c1270, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@18a136ac]
+10:00:40.125 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@e19bb76 testClass = RedisTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@512535ff testClass = RedisTest, locations = '{}', classes = '{class com.github.joschi.springboot.testcontainers.RedisTest$TestConfig, class com.github.joschi.springboot.testcontainers.RedisTest$TestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@35b74c5c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@81d9a72, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1e13529a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3336e6b6], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+10:00:40.151 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@e19bb76 testClass = RedisTest, testInstance = com.github.joschi.springboot.testcontainers.RedisTest@2eee3069, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@512535ff testClass = RedisTest, locations = '{}', classes = '{class com.github.joschi.springboot.testcontainers.RedisTest$TestConfig, class com.github.joschi.springboot.testcontainers.RedisTest$TestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@35b74c5c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@81d9a72, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1e13529a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3336e6b6], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+10:00:40.197 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+2020-02-03 10:00:40.840  INFO 15766 --- [           main] .t.r.EmbeddedRedisBootstrapConfiguration : Starting Redis server. Docker image: redis:4.0.12-alpine
+2020-02-03 10:00:40.888  INFO 15766 --- [           main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.ProxiedUnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2020-02-03 10:00:41.475  INFO 15766 --- [           main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Unix socket (via TCP proxy)
+2020-02-03 10:00:41.635  INFO 15766 --- [           main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2020-02-03 10:00:41.682  INFO 15766 --- [           main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 19.03.5
+  API Version: 1.40
+  Operating System: Docker Desktop
+  Total Memory: 3938 MB
+2020-02-03 10:00:41.887  INFO 15766 --- [           main] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for quay.io
+2020-02-03 10:00:42.569  INFO 15766 --- [           main] org.testcontainers.DockerClientFactory   : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+        ℹ︎ Checking the system...
+        ✔ Docker version should be at least 1.6.0
+        ✔ Docker environment should have more than 2GB free disk space
+2020-02-03 10:00:42.855  INFO 15766 --- [           main] 🐳 [redis:4.0.12-alpine]                 : Creating container for image: redis:4.0.12-alpine
+2020-02-03 10:00:42.918  INFO 15766 --- [           main] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+2020-02-03 10:00:43.004  INFO 15766 --- [           main] 🐳 [redis:4.0.12-alpine]                 : Starting container with ID: bb7d06bcadb76d6da2683be7037b8f1bc4188002a8715e6a3fe7d89adbdbdfef
+2020-02-03 10:00:43.434  INFO 15766 --- [           main] 🐳 [redis:4.0.12-alpine]                 : Container redis:4.0.12-alpine is starting: bb7d06bcadb76d6da2683be7037b8f1bc4188002a8715e6a3fe7d89adbdbdfef
+2020-02-03 10:00:43.640  INFO 15766 --- [           main] 🐳 [redis:4.0.12-alpine]                 : Container redis:4.0.12-alpine started in PT2.763798S
+2020-02-03 10:00:43.643  INFO 15766 --- [           main] .t.r.EmbeddedRedisBootstrapConfiguration : Started Redis server. Connection details: {embedded.redis.port=32787, embedded.redis.host=localhost, embedded.redis.password=passw, embedded.redis.user=root}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-02-03 10:00:43.749  INFO 15766 --- [           main] c.g.j.s.testcontainers.RedisTest         : No active profile set, falling back to default profiles: default
+2020-02-03 10:00:43.788  INFO 15766 --- [           main] c.g.j.s.testcontainers.RedisTest         : Started RedisTest in 3.587 seconds (JVM running for 4.633)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.323 s - in com.github.joschi.springboot.testcontainers.RedisTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.447 s
+[INFO] Finished at: 2020-02-03T10:00:44+01:00
+[INFO] ------------------------------------------------------------------------
